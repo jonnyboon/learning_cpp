@@ -5,6 +5,10 @@ using namespace std;
 
 int main(){
 
+int inUsrVar;
+
+cout << "Please enter some integer value" << endl;
+cin >> inUsrVar;
 
 
 
