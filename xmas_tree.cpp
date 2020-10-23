@@ -59,15 +59,9 @@ int main(){
             cout << star; 
         }
 
-        //insert padding after the stars
-        for (int l; l <= padding; l++){
-            cout << space; 
-        }
-
+  
         cout << endl;
- 
-
-      
+       
     }
 
     cout << "There you go! A beatiful XMAS tree with " << numLevels << " levels";
