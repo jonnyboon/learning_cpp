@@ -1,0 +1,16 @@
+Adress of pointer_to_int: 0x7ffee3d69ae0
+Adress of new_pointer_to_int: 0x7ffee3d69ad8
+Adress pointer_to_int is pointing at: 0x7ffee3d69ae0
+Adress new_pointer_to_int is pointing at: 0x7ffee3d69ad8
+Hence it can be seen that after initialization without assignement 
+the pointers are pointing at themselves 
+
+Adress of variable: 0x7ffee3d69ad4
+Adress of pointer_to_int after pointing to variable: 0x7ffee3d69ae0
+Adress pointer_to_int is pointing at after assignment: 0x7ffee3d69ad4
+
+Value of variable pointed by pointer_to_int: 5
+Adress of new_pointer_to_int: 0x7ffee3d69ad8
+Adress new_pointer_to_int is pointing at: 0x7ffee3d69ad4
+10
+10
