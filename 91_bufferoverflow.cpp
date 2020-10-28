@@ -10,8 +10,9 @@ int main(int argc, char **argv){
 
     char a[16];
         
-    strncpy(a, "0123456789abcdef", sizeof(a)); //string not 0x00 terminated
+    strncpy(a, "0123456789abcde", sizeof(a)); //string not 0x00 terminated
 
+    cout << "a size is " << sizeof(a) << endl;
     cout << "a is " << a << endl;
 
     cin >> a;
