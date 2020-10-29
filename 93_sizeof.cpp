@@ -9,15 +9,11 @@ using namespace std;
 int main(int argc, char **argv){
 
     char a[16];
-        
-    strncpy(a, "0123456789abcde", sizeof(a)); //string not 0x00 terminated
+    int b[32];
 
-    cout << "a size is " << sizeof(a) << endl;
-    cout << "a is " << a << endl;
 
-    cin >> a;
-
-    cout << "overflown a: " << a << endl;
+    cout << "size of a: " << sizeof(a) << endl;
+    cout << "size of b: " << sizeof(b) << endl;
 
     return 0;
 }
